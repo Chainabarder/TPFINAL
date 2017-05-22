@@ -13,15 +13,70 @@
 
 	text-align: center;
 	margin: 8px 2px;
+	text-decoration: none;
 }
 
 .NavBar ul li {
 
 	list-style: none;
 	display: inline-block;
-	width: 50px;
-	padding: 8px 175px 12px 38px;
+	width: 150px;
+	padding: 0px;
 	background-color: transparent;
+	color: #f0ff26;
+	font-family: 'Baloo Bhaina', cursive;
 	
+}
 
+.NavBar ul li a {
+
+	text-decoration: none;
+}
+
+/* clases de los a de li */
+
+.NAME {
+
+	position: absolute;
+	top: 10px;
+	left: 115px;
+	font-size: 25px;
+}
+
+
+.CONTACT {
+
+	position: absolute;
+	top: 25px;
+	right: 45px;
+	color: #f0ff26;
+	font-size: 18px;
+
+}
+
+.JOB {
+
+	position: absolute;
+	top: 25px;
+	right: 210px;
+	color: #f0ff26;
+	font-size: 18px;
+}
+
+.PORT {
+
+	position: absolute;
+	top: 25px;
+	right: 415px;
+	color: #f0ff26;
+	font-size: 18px;
+}
+
+.WHO {
+
+	position: absolute;
+	top: 25px;
+	right: 590px;
+	color: #f0ff26;
+	font-size: 18px;
 }
