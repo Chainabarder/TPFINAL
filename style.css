@@ -1,9 +1,11 @@
 
+
 .NavBar {
 
 	background-color: black;
 	width: 100%;
-	height: 150px;
+	height: 62px;
+	position: relative;
 }
 
 
@@ -20,6 +22,6 @@
 	width: 50px;
 	padding: 8px 175px 12px 38px;
 	background-color: transparent;
-	transform: rotate(-25deg);
+	
 
 }
