@@ -30,6 +30,7 @@
 .NavBar ul li a {
 
 	text-decoration: none;
+	color: #f0ff26;
 }
 
 /*ACA TERMINA NAVBAR*/
@@ -243,4 +244,3 @@
  	height: 100%;
  }
 
-  
