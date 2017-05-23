@@ -194,17 +194,17 @@
  	height: 100%;
  }
 
-.Home {
+.HOME {
 
 	text-decoration: none;
 	position: absolute;
 	top: 25px;
-	right: 590px;
+	right: 760px;
 	color: #f0ff26;
 	font-size: 18px;
 }
 
-.Home:before {
+.HOME:before {
 
 	content: "";
  	display: inline-block;
@@ -217,7 +217,7 @@
  	z-index: -1;
 }
 
-.Home:after {
+.HOME:after {
 
 	content: "Home";
 	font-family: 'Baloo Bhaina', cursive;
@@ -232,13 +232,62 @@
 
 }
 
- .Home:hover:before {
+ .HOME:hover:before {
 
  	width: 100%;
  	height: 100%;
  }
 
-  .Home:hover:after {
+  .HOME:hover:after {
+
+ 	width: 100%;
+ 	height: 100%;
+ }
+
+ .WHO {
+
+	position: absolute;
+	top: 25px;
+	right: 580px;
+	color: #f0ff26;
+	font-size: 18px;
+}
+
+.WHO:before {
+
+	content: "";
+ 	display: inline-block;
+ 	width: 0;
+ 	height: 100%;
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	transition: 0.2s linear all;
+ 	z-index: -1;
+}
+
+.WHO:after {
+
+	content: "Who am I? ";
+	font-family: 'Baloo Bhaina', cursive;
+ 	position: absolute;
+ 	top: 0px;
+ 	left: 0px;
+ 	color: orange;
+ 	overflow: hidden;
+ 	width: 0;
+ 	height: 0;
+ 	transition: 0.2s linear all;
+
+}
+
+ .WHO:hover:before {
+
+ 	width: 100%;
+ 	height: 100%;
+ }
+
+  .WHO:hover:after {
 
  	width: 100%;
  	height: 100%;
