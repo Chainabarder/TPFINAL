@@ -44,6 +44,7 @@
 }
 
 
+
 .CONTACT {
 
 	position: absolute;
@@ -53,6 +54,47 @@
 	font-size: 18px;
 
 }
+/* animacion de boton */
+
+.CONTACT:before {
+
+	content: "";
+ 	display: inline-block;
+ 	width: 0;
+ 	height: 100%;
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	transition: 0.2s linear all;
+ 	z-index: -1;
+}
+
+.CONTACT:after {
+
+	content: "Contact me";
+	font-family: 'Baloo Bhaina', cursive;
+ 	position: absolute;
+ 	top: 0px;
+ 	left: 0px;
+ 	color: orange;
+ 	overflow: hidden;
+ 	width: 0;
+ 	height: 0;
+ 	transition: 0.2s linear all;
+
+}
+
+ .CONTACT:hover:before {
+
+ 	width: 100%;
+ 	height: 100%;
+ }
+
+  .CONTACT:hover:after {
+
+ 	width: 100%;
+ 	height: 100%;
+ }
 
 .JOB {
 
@@ -63,6 +105,46 @@
 	font-size: 18px;
 }
 
+.JOB:before {
+
+	content: "";
+ 	display: inline-block;
+ 	width: 0;
+ 	height: 100%;
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	transition: 0.2s linear all;
+ 	z-index: -1;
+}
+
+.JOB:after {
+
+	content: "Job Experience";
+	font-family: 'Baloo Bhaina', cursive;
+ 	position: absolute;
+ 	top: 0px;
+ 	left: 0px;
+ 	color: orange;
+ 	overflow: hidden;
+ 	width: 0;
+ 	height: 0;
+ 	transition: 0.2s linear all;
+
+}
+
+ .JOB:hover:before {
+
+ 	width: 100%;
+ 	height: 100%;
+ }
+
+  .JOB:hover:after {
+
+ 	width: 100%;
+ 	height: 100%;
+ }
+
 .PORT {
 
 	position: absolute;
@@ -72,6 +154,46 @@
 	font-size: 18px;
 }
 
+.PORT:before {
+
+	content: "";
+ 	display: inline-block;
+ 	width: 0;
+ 	height: 100%;
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	transition: 0.2s linear all;
+ 	z-index: -1;
+}
+
+.PORT:after {
+
+	content: "Portfolio";
+	font-family: 'Baloo Bhaina', cursive;
+ 	position: absolute;
+ 	top: 0px;
+ 	left: 0px;
+ 	color: orange;
+ 	overflow: hidden;
+ 	width: 0;
+ 	height: 0;
+ 	transition: 0.2s linear all;
+
+}
+
+ .PORT:hover:before {
+
+ 	width: 100%;
+ 	height: 100%;
+ }
+
+  .PORT:hover:after {
+
+ 	width: 100%;
+ 	height: 100%;
+ }
+
 .WHO {
 
 	position: absolute;
@@ -80,6 +202,46 @@
 	color: #f0ff26;
 	font-size: 18px;
 }
+
+.WHO:before {
+
+	content: "";
+ 	display: inline-block;
+ 	width: 0;
+ 	height: 100%;
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	transition: 0.2s linear all;
+ 	z-index: -1;
+}
+
+.WHO:after {
+
+	content: "Who am I?";
+	font-family: 'Baloo Bhaina', cursive;
+ 	position: absolute;
+ 	top: 0px;
+ 	left: 0px;
+ 	color: orange;
+ 	overflow: hidden;
+ 	width: 0;
+ 	height: 0;
+ 	transition: 0.2s linear all;
+
+}
+
+ .WHO:hover:before {
+
+ 	width: 100%;
+ 	height: 100%;
+ }
+
+  .WHO:hover:after {
+
+ 	width: 100%;
+ 	height: 100%;
+ }
 
 .ion-nuclear {
 
