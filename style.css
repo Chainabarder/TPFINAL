@@ -320,7 +320,7 @@
 h1 {
 
 	font-family: 'Baloo Bhaina', cursive;
-	font-size: 40px;
+	font-size: 45px;
 	color: black;
 	margin: 0px;
 	text-align: center;
@@ -331,42 +331,25 @@ h1 {
 }
 
 
-.boton1 {
-
-	height: 20px;
-	width: 225px;
-	font-family: 'Baloo Bhaina', cursive;
-	
-	color: black;
-	text-align: center;
-	background-color: transparent;
-	border-top: 1px solid black;
-  	border-right: 1px solid black;
- 	border-bottom: 1px solid black;
-  	border-left: 1px solid black;
-  	border-radius: 60px;
-	padding: 15px 4px;
-	margin: 0px 75px;
-	position: absolute;
-	top: 180px;
-	left: 205px;
-
-}
-
-h3 {
+.sub-title h3 {
 
 	font-family: 'Baloo Bhaina', cursive;
 	font-size: 25px;
 	color: black;
-	margin: 0px;
+	position: absolute;
+	top: 230px;
+	left: 215px;
+	height: 20px;
+	width: 225px;
 	text-align: center;
+	
 	
 }
 
 .TIGER {
 
 	position: absolute;
-	top: 500px;
-	right: 150px;
+	top: 35px;
+	right: 160px;
 }
 
