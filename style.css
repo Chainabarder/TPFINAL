@@ -22,7 +22,7 @@
 
 	list-style: none;
 	display: inline-block;
-	width: 250px;
+	width: 400px;
 	padding: 0px;
 	background-color: transparent;
 	color: #f0ff26;
@@ -264,7 +264,7 @@
 
 	background-image: url("IMGS/fondo.png");
     background-color: #f0ff26;
-	height: 350px;
+	height: 525px;
 	position: relative;
 
 }
@@ -277,8 +277,8 @@ h1 {
 	margin: 0px;
 	text-align: center;
 	position: absolute;
-	top: 100px;
-	left: 50px;
+	top: 175px;
+	left: 75px;
 
 }
 
@@ -301,7 +301,29 @@ h1 {
 .TIGER {
 
 	position: absolute;
-	top: 35px;
+	top: 100px;
 	right: 160px;
 }
 
+/* FOOTER */
+
+.footer {
+
+	height: 31px;
+	width: 100%;
+	background-color: #000;
+}
+
+.Version {
+
+	font-size: 15px;
+	font-family: 'Baloo Bhaina', cursive;
+	color: #f0ff26;
+}
+
+.widget {
+
+	font-size: 15px;
+	font-family: 'Baloo Bhaina', cursive;
+	color: #f0ff26;
+}
