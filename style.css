@@ -41,7 +41,7 @@
 
 	position: absolute;
 	top: 25px;
-	right: 590px;
+	right: 600px;
 	color: #f0ff26;
 	font-size: 18px;
 }
@@ -102,7 +102,7 @@
 
 	position: absolute;
 	top: 25px;
-	right: 45px;
+	right: 55px;
 	color: #f0ff26;
 	font-size: 18px;
 
@@ -153,7 +153,7 @@
 
 	position: absolute;
 	top: 25px;
-	right: 210px;
+	right: 220px;
 	color: #f0ff26;
 	font-size: 18px;
 }
@@ -203,7 +203,7 @@
 
 	position: absolute;
 	top: 25px;
-	right: 415px;
+	right: 420px;
 	color: #f0ff26;
 	font-size: 18px;
 }
@@ -252,13 +252,6 @@
 
  /*ACA TERMINA LA ANIMACION DE LOS LI DEL NAV */
 
-.ion-nuclear {
-
-	color: #f0ff26;
-	padding: 0px 8px;
-}
-
-/* SECTION 1 */
 
 .SEC1 {
 
@@ -312,13 +305,32 @@ h1 {
 	height: 31px;
 	width: 100%;
 	background-color: #000;
+	display: block;
+	position: relative;
 }
+
+.MAIL {
+
+	font-family: 'Baloo Bhaina', cursive;
+	color: #f0ff26;
+	display: inline-block;
+	position: absolute;
+	bottom: 0px;
+	right: 20px;
+
+}
+
 
 .Version {
 
 	font-size: 15px;
 	font-family: 'Baloo Bhaina', cursive;
 	color: #f0ff26;
+	display: inline-block;
+	position: absolute;
+	bottom: 0px;
+	left: 15px;
+
 }
 
 .widget {
@@ -326,4 +338,8 @@ h1 {
 	font-size: 15px;
 	font-family: 'Baloo Bhaina', cursive;
 	color: #f0ff26;
+	display: inline-block;
+	position: absolute;
+	bottom: 0px;
+	right: 600px;
 }

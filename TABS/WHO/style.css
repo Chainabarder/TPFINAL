@@ -1,3 +1,11 @@
+
+
+#wrap {
+
+	position: relative;
+}
+
+
 /*NAVBAR*/
 .NavBar {
 
@@ -19,7 +27,7 @@
 
 	list-style: none;
 	display: inline-block;
-	width: 250px;
+	width: 400px;
 	padding: 0px;
 	background-color: transparent;
 	color: #f0ff26;
@@ -49,7 +57,7 @@
 
 	position: absolute;
 	top: 25px;
-	right: 45px;
+	right: 55px;
 	color: #f0ff26;
 	font-size: 18px;
 
@@ -145,61 +153,13 @@
  	height: 100%;
  }
 
-.PORT {
-
-	position: absolute;
-	top: 25px;
-	right: 415px;
-	color: #f0ff26;
-	font-size: 18px;
-}
-
-.PORT:before {
-
-	content: "";
- 	display: inline-block;
- 	width: 0;
- 	height: 100%;
- 	position: absolute;
- 	top: 0;
- 	left: 0;
- 	transition: 0.2s linear all;
- 	z-index: -1;
-}
-
-.PORT:after {
-
-	content: "Portfolio";
-	font-family: 'Baloo Bhaina', cursive;
- 	position: absolute;
- 	top: 0px;
- 	left: 0px;
- 	color: orange;
- 	overflow: hidden;
- 	width: 0;
- 	height: 0;
- 	transition: 0.2s linear all;
-
-}
-
- .PORT:hover:before {
-
- 	width: 100%;
- 	height: 100%;
- }
-
-  .PORT:hover:after {
-
- 	width: 100%;
- 	height: 100%;
- }
 
 .HOME {
 
 	text-decoration: none;
 	position: absolute;
 	top: 25px;
-	right: 760px;
+	right: 600px;
 	color: #f0ff26;
 	font-size: 18px;
 }
@@ -248,7 +208,7 @@
 
 	position: absolute;
 	top: 25px;
-	right: 580px;
+	right: 420px;
 	color: #f0ff26;
 	font-size: 18px;
 }
@@ -295,14 +255,14 @@
 
 /* ACA TERMINA EL NAVBAR */
 
-.SECT1 {
+#main {
 
 width: 100%;
 height: 1135px;
 background-image: url("fondo.png");
 background-color: #f0ff26;
-position: absolute;
-top: initial;
+position: relative;
+
 
 }
 
@@ -311,8 +271,8 @@ top: initial;
 width: 100%;
 height: 975px;
 background-color: black;
-position: absolute;
-bottom: 100px;
+position: relative;
+bottom: -60px;
 
 }
 
@@ -337,4 +297,53 @@ bottom: 100px;
 	text-align: center;
 	position: absolute;
 	top: 100px;
+}
+
+/* FOOTER */
+
+#footer {
+
+display: inline-block;
+background-color: #007;
+width: 100%;
+position: absolute;
+bottom: -700px;
+
+
+}
+
+
+.MAIL {
+
+	font-family: 'Baloo Bhaina', cursive;
+	color: #f0ff26;
+	display: inline-block;
+	position: absolute;
+	bottom: 0px;
+	right: 20px;
+
+}
+
+
+.Version {
+
+	font-size: 15px;
+	font-family: 'Baloo Bhaina', cursive;
+	color: #f0ff26;
+	display: inline-block;
+	position: absolute;
+	bottom: 0px;
+	left: 15px;
+
+}
+
+.widget {
+
+	font-size: 15px;
+	font-family: 'Baloo Bhaina', cursive;
+	color: #f0ff26;
+	display: inline-block;
+	position: absolute;
+	bottom: 0px;
+	right: 600px;
 }
