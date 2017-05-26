@@ -365,7 +365,7 @@ h1 {
     width: 380px;
     padding: 4px 8px;
     border: 1px dashed #DBDBDB;
-    color: #3F3F3F;
+    color: #000;
     font-family: 'Baloo Bhaina', cursive;
     font-size: 14px;
     /*border-radius*/
@@ -465,7 +465,7 @@ p {
     background: none;
     border: none;
     font-family: 'Baloo Bhaina', cursive;
-    color: #767676;
+    color: #000;
     font-size: 18px;
     padding: 10px 4px;
     border: 1px solid #E0E0E0;
