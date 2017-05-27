@@ -250,7 +250,7 @@ h1 {
   display: inline-block;
   position: absolute;
   bottom: 0px;
-  right: 225px; }
+  right: 600px; }
 
 /* MOBILE */
 @media (min-width: 320px) and (max-width: 769px) {
