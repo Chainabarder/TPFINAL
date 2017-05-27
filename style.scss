@@ -1,59 +1,7 @@
-/* TABLET */
-
-@media only screen and (min-device-width : 700px) and (max-device-width : 1024px) {
-
-.Navbar {
-		width: 90%;
-}
-
-#SEC1 {
-	width: 90%;
-}
-
-.footer {
-	width: 90%;
-}
-}
 
 
- /* MOBILE */
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-
-.Navbar {
-	height: auto;
-}
-
-.Navbar ul li {
-	width: 200px;
-	font-size: 15px;
-}
-
-
-#SEC1 {
-	height: auto;
-}
-
-h1 {
-	font-size: 24px;
-	position: absolute;
-	top: 40px;
-
-}
-
-.TIGER {
-	position: absolute;
-	top: 210px;
-	right: 55px;
-
-}
-
-.footer {
-	height: auto;
-	font-size: 8px
-}
-
-}
+ 
 
 /*NAVBAR*/
 .NavBar {
@@ -81,7 +29,7 @@ h1 {
 	background-color: transparent;
 	color: orange;
 	font-family: 'Baloo Bhaina', cursive;
-	
+	font-size: 40px;
 	
 }
 
@@ -372,6 +320,7 @@ h1 {
 .MAIL {
 
 	font-family: 'Baloo Bhaina', cursive;
+	font-size: 15px;
 	color: orange;
 	display: inline-block;
 	position: absolute;
@@ -401,5 +350,250 @@ h1 {
 	display: inline-block;
 	position: absolute;
 	bottom: 0px;
-	right: 600px;
+	right: 225px;
+}
+
+
+/* MOBILE */
+
+@media (min-width : 320px) and (max-width : 769px) {
+
+	.NavBar {
+		display: flex;
+	}
+
+	.NavBar ul li {
+
+	list-style: none;
+	display: inline-block;
+	width: 200px;
+	padding: 0px;
+	background-color: transparent;
+	color: orange;
+	font-family: 'Baloo Bhaina', cursive;
+	font-size: 15px;
+	
+	}
+
+	.NAME {
+
+		position: absolute;
+		top: 30px;
+		left: 15px;
+	}
+
+	.HOME {
+
+		font-size: 12px;
+		position: absolute;
+		top: 35px;
+		right: 270px;
+
+	}
+
+	.JOB {
+
+		font-size: 12px;
+		position: absolute;
+		top: 35px;
+		right: 100px;
+
+	}
+
+	.CONTACT {
+
+		font-size: 12px;
+		position: absolute;
+		top: 35px;
+		right: 25px;
+
+
+	}
+
+
+	.WHO {
+
+		position: absolute;
+		top: 35px;
+		right: 195px;
+		color: #f0ff26;
+		font-size: 12px;
+	}
+
+
+	#SEC1 {
+		
+	}
+
+	h1 {
+		font-size: 35px;
+		position: relative;
+		top: 15px;
+		left: 10px;
+	}
+
+	.TIGER {
+		position: absolute;
+		top: 175px;
+		right: 50px;
+	}
+
+.MAIL {
+
+	font-family: 'Baloo Bhaina', cursive;
+	font-size: 12px;
+	color: orange;
+	display: inline-block;
+	position: absolute;
+	bottom: 0px;
+	right: 25px;
+
+}
+
+
+.Version {
+
+	font-size: 12px;
+	font-family: 'Baloo Bhaina', cursive;
+	color: orange;
+	display: inline-block;
+	position: absolute;
+	bottom: 0px;
+	left: 5px;
+	
+
+
+}
+
+.widget {
+	
+	font-size: 12px;
+	font-family: 'Baloo Bhaina', cursive;
+	color: orange;
+	display: inline-block;
+	position: absolute;
+	bottom: 0px;
+	right: 210px;
+
+}
+
+}
+
+/* TABLET */
+
+@media  (min-width : 770px) and (max-width : 1024px) {
+
+.Navbar {
+		width: 90%;
+}
+
+.NavBar ul li {
+
+	list-style: none;
+	display: inline-block;
+	width: 200px;
+	padding: 0px;
+	background-color: transparent;
+	color: orange;
+	font-family: 'Baloo Bhaina', cursive;
+	font-size: 20px;
+	
+	}
+
+
+.NAME {
+
+		position: absolute;
+		top: 30px;
+		left: 15px;
+		font-size: 22px;
+	}
+
+	.HOME {
+
+		font-size: 18px;
+		position: absolute;
+		top: 30px;
+		right: 460px;
+
+	}
+
+	.JOB {
+
+		font-size: 18px;
+		position: absolute;
+		top: 30px;
+		right: 155px;
+
+	}
+
+	.CONTACT {
+
+		font-size: 18px;
+		position: absolute;
+		top: 30px;
+		right: 25px;
+
+
+	}
+
+
+	.WHO {
+
+		position: absolute;
+		top: 30px;
+		right: 320px;
+		color: #f0ff26;
+		font-size: 18px;
+	}
+
+
+h1 {
+
+		font-size: 45px;
+		position: relative;
+		top: 40px;
+		left: 40px;
+}
+#SEC1 {
+	
+}
+
+.TIGER {
+
+	position: absolute;
+	top: 175px;
+	right: 285px;
+
+}
+
+.footer {
+	
+}
+
+.MAIL {
+
+font-size: 12px;
+
+}
+
+
+.Version {
+
+	font-size: 12px;
+
+
+}
+
+.widget {
+
+	font-size: 12px;
+	font-family: 'Baloo Bhaina', cursive;
+	color: orange;
+	display: inline-block;
+	position: absolute;
+	bottom: 0px;
+	right: 400px;
+
+}
 }
