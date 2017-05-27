@@ -1,405 +1,288 @@
 /* TABLET */
+@media only screen and (min-device-width: 700px) and (max-device-width: 1024px) {
+  .Navbar {
+    width: 90%; }
 
-@media only screen and (min-device-width : 700px) and (max-device-width : 1024px) {
+  #SEC1 {
+    width: 90%; }
 
-.Navbar {
-		width: 90%;
-}
+  .footer {
+    width: 90%; } }
+/* MOBILE */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .Navbar {
+    height: auto; }
 
-#SEC1 {
-	width: 90%;
-}
+  .Navbar ul li {
+    width: 200px;
+    font-size: 15px; }
 
-.footer {
-	width: 90%;
-}
-}
+  #SEC1 {
+    height: auto; }
 
+  h1 {
+    font-size: 24px;
+    position: absolute;
+    top: 40px; }
 
- /* MOBILE */
+  .TIGER {
+    position: absolute;
+    top: 210px;
+    right: 55px; }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-
-.Navbar {
-	height: auto;
-}
-
-.Navbar ul li {
-	width: 200px;
-	font-size: 15px;
-}
-
-
-#SEC1 {
-	height: auto;
-}
-
-h1 {
-	font-size: 24px;
-	position: absolute;
-	top: 40px;
-
-}
-
-.TIGER {
-	position: absolute;
-	top: 210px;
-	right: 55px;
-
-}
-
-.footer {
-	height: auto;
-	font-size: 8px
-}
-
-}
-
+  .footer {
+    height: auto;
+    font-size: 8px; } }
 /*NAVBAR*/
 .NavBar {
-
-	background-color: black;
-	width: 100%;
-	height: 62px;
-	position: relative;
-}
-
+  background-color: black;
+  width: 100%;
+  height: 62px;
+  position: relative; }
 
 .Navbar ul {
-
-	text-align: center;
-	margin: 8px 2px;
-	text-decoration: none;
-}
+  text-align: center;
+  margin: 8px 2px;
+  text-decoration: none; }
 
 .NavBar ul li {
+  list-style: none;
+  display: inline-block;
+  width: 400px;
+  padding: 0px;
+  background-color: transparent;
+  color: orange;
+  font-family: 'Baloo Bhaina', cursive; }
 
-	list-style: none;
-	display: inline-block;
-	width: 400px;
-	padding: 0px;
-	background-color: transparent;
-	color: orange;
-	font-family: 'Baloo Bhaina', cursive;
-	
-	
-}
-
-
- .NAME  {
-
-	position: absolute;
-	top: 2px;
-	left: 75px;
-	font-size: 35px;
-	color: orange;
-
-}
+.NAME {
+  position: absolute;
+  top: 2px;
+  left: 75px;
+  font-size: 35px;
+  color: orange; }
 
 .NavBar ul li a {
-
-	text-decoration: none;
-}
-
-
-
+  text-decoration: none; }
 
 /*ACA TERMINA NAVBAR*/
-
 .HOME {
-
-	position: absolute;
-	top: 25px;
-	right: 600px;
-	color: #f0ff26;
-	font-size: 18px;
-}
+  position: absolute;
+  top: 25px;
+  right: 600px;
+  color: #f0ff26;
+  font-size: 18px; }
 
 .HOME:before {
-
-	content: "";
- 	display: inline-block;
- 	width: 0;
- 	height: 100%;
- 	position: absolute;
- 	top: 0;
- 	left: 0;
- 	transition: 0.2s linear all;
- 	z-index: -1;
-}
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.2s linear all;
+  z-index: -1; }
 
 .HOME:after {
+  content: "Home";
+  font-family: 'Baloo Bhaina', cursive;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: orange;
+  overflow: hidden;
+  width: 0;
+  height: 0;
+  transition: 0.2s linear all; }
 
-	content: "Home";
-	font-family: 'Baloo Bhaina', cursive;
- 	position: absolute;
- 	top: 0px;
- 	left: 0px;
- 	color: orange;
- 	overflow: hidden;
- 	width: 0;
- 	height: 0;
- 	transition: 0.2s linear all;
+.HOME:hover:before {
+  width: 100%;
+  height: 100%; }
 
-}
-
- .HOME:hover:before {
-
- 	width: 100%;
- 	height: 100%;
- }
-
-  .HOME:hover:after {
-
- 	width: 100%;
- 	height: 100%;
- }
-
-
+.HOME:hover:after {
+  width: 100%;
+  height: 100%; }
 
 .CONTACT {
+  position: absolute;
+  top: 25px;
+  right: 55px;
+  color: #f0ff26;
+  font-size: 18px; }
 
-	position: absolute;
-	top: 25px;
-	right: 55px;
-	color: #f0ff26;
-	font-size: 18px;
-
-}
 /* li del nav con sus respectivas animaciones */
-
 .CONTACT:before {
-
-	content: "";
- 	display: inline-block;
- 	width: 0;
- 	height: 100%;
- 	position: absolute;
- 	top: 0;
- 	left: 0;
- 	transition: 0.2s linear all;
- 	z-index: -1;
-}
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.2s linear all;
+  z-index: -1; }
 
 .CONTACT:after {
+  content: "Contact me";
+  font-family: 'Baloo Bhaina', cursive;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: orange;
+  overflow: hidden;
+  width: 0;
+  height: 0;
+  transition: 0.2s linear all; }
 
-	content: "Contact me";
-	font-family: 'Baloo Bhaina', cursive;
- 	position: absolute;
- 	top: 0px;
- 	left: 0px;
- 	color: orange;
- 	overflow: hidden;
- 	width: 0;
- 	height: 0;
- 	transition: 0.2s linear all;
+.CONTACT:hover:before {
+  width: 100%;
+  height: 100%; }
 
-}
-
- .CONTACT:hover:before {
-
- 	width: 100%;
- 	height: 100%;
- }
-
-  .CONTACT:hover:after {
-
- 	width: 100%;
- 	height: 100%;
- }
+.CONTACT:hover:after {
+  width: 100%;
+  height: 100%; }
 
 .JOB {
-
-	position: absolute;
-	top: 25px;
-	right: 220px;
-	color: #f0ff26;
-	font-size: 18px;
-}
+  position: absolute;
+  top: 25px;
+  right: 220px;
+  color: #f0ff26;
+  font-size: 18px; }
 
 .JOB:before {
-
-	content: "";
- 	display: inline-block;
- 	width: 0;
- 	height: 100%;
- 	position: absolute;
- 	top: 0;
- 	left: 0;
- 	transition: 0.2s linear all;
- 	z-index: -1;
-}
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.2s linear all;
+  z-index: -1; }
 
 .JOB:after {
+  content: "Job Experience";
+  font-family: 'Baloo Bhaina', cursive;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: orange;
+  overflow: hidden;
+  width: 0;
+  height: 0;
+  transition: 0.2s linear all; }
 
-	content: "Job Experience";
-	font-family: 'Baloo Bhaina', cursive;
- 	position: absolute;
- 	top: 0px;
- 	left: 0px;
- 	color: orange;
- 	overflow: hidden;
- 	width: 0;
- 	height: 0;
- 	transition: 0.2s linear all;
+.JOB:hover:before {
+  width: 100%;
+  height: 100%; }
 
-}
-
- .JOB:hover:before {
-
- 	width: 100%;
- 	height: 100%;
- }
-
-  .JOB:hover:after {
-
- 	width: 100%;
- 	height: 100%;
- }
-
+.JOB:hover:after {
+  width: 100%;
+  height: 100%; }
 
 .WHO {
-
-	position: absolute;
-	top: 25px;
-	right: 420px;
-	color: #f0ff26;
-	font-size: 18px;
-}
+  position: absolute;
+  top: 25px;
+  right: 420px;
+  color: #f0ff26;
+  font-size: 18px; }
 
 .WHO:before {
-
-	content: "";
- 	display: inline-block;
- 	width: 0;
- 	height: 100%;
- 	position: absolute;
- 	top: 0;
- 	left: 0;
- 	transition: 0.2s linear all;
- 	z-index: -1;
-}
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.2s linear all;
+  z-index: -1; }
 
 .WHO:after {
+  content: "Who am I?";
+  font-family: 'Baloo Bhaina', cursive;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: orange;
+  overflow: hidden;
+  width: 0;
+  height: 0;
+  transition: 0.2s linear all; }
 
-	content: "Who am I?";
-	font-family: 'Baloo Bhaina', cursive;
- 	position: absolute;
- 	top: 0px;
- 	left: 0px;
- 	color: orange;
- 	overflow: hidden;
- 	width: 0;
- 	height: 0;
- 	transition: 0.2s linear all;
+.WHO:hover:before {
+  width: 100%;
+  height: 100%; }
 
-}
+.WHO:hover:after {
+  width: 100%;
+  height: 100%; }
 
- .WHO:hover:before {
-
- 	width: 100%;
- 	height: 100%;
- }
-
-  .WHO:hover:after {
-
- 	width: 100%;
- 	height: 100%;
- }
-
-
-
- /*ACA TERMINA LA ANIMACION DE LOS LI DEL NAV */
-
-
-
+/*ACA TERMINA LA ANIMACION DE LOS LI DEL NAV */
 #SEC1 {
-
-	background-image: url("IMGS/fondo.png");
-    background-color: #f0ff26;
-	height: 525px;
-	position: relative;
-
-}
+  background-image: url("IMGS/fondo.png");
+  background-color: #f0ff26;
+  height: 525px;
+  position: relative; }
 
 h1 {
-
-	font-family: 'Baloo Bhaina', cursive;
-	font-size: 45px;
-	color: black;
-	margin: 0px;
-	text-align: center;
-	position: absolute;
-	top: 175px;
-	left: 75px;
-
-}
-
+  font-family: 'Baloo Bhaina', cursive;
+  font-size: 45px;
+  color: black;
+  margin: 0px;
+  text-align: center;
+  position: absolute;
+  top: 175px;
+  left: 75px; }
 
 .sub-title h3 {
-
-	font-family: 'Baloo Bhaina', cursive;
-	font-size: 25px;
-	color: black;
-	position: absolute;
-	top: 230px;
-	left: 215px;
-	height: 20px;
-	width: 225px;
-	text-align: center;
-	
-	
-}
+  font-family: 'Baloo Bhaina', cursive;
+  font-size: 25px;
+  color: black;
+  position: absolute;
+  top: 230px;
+  left: 215px;
+  height: 20px;
+  width: 225px;
+  text-align: center; }
 
 .TIGER {
-
-	position: absolute;
-	top: 100px;
-	right: 160px;
-}
+  position: absolute;
+  top: 100px;
+  right: 160px; }
 
 /* FOOTER */
-
 .footer {
-
-	height: 31px;
-	width: 100%;
-	background-color: #000;
-	display: block;
-	position: relative;
-}
+  height: 31px;
+  width: 100%;
+  background-color: #000;
+  display: block;
+  position: relative; }
 
 .MAIL {
-
-	font-family: 'Baloo Bhaina', cursive;
-	color: orange;
-	display: inline-block;
-	position: absolute;
-	bottom: 0px;
-	right: 20px;
-
-}
-
+  font-family: 'Baloo Bhaina', cursive;
+  color: orange;
+  display: inline-block;
+  position: absolute;
+  bottom: 0px;
+  right: 20px; }
 
 .Version {
-
-	font-size: 15px;
-	font-family: 'Baloo Bhaina', cursive;
-	color: orange;
-	display: inline-block;
-	position: absolute;
-	bottom: 0px;
-	left: 15px;
-
-}
+  font-size: 15px;
+  font-family: 'Baloo Bhaina', cursive;
+  color: orange;
+  display: inline-block;
+  position: absolute;
+  bottom: 0px;
+  left: 15px; }
 
 .widget {
+  font-size: 15px;
+  font-family: 'Baloo Bhaina', cursive;
+  color: orange;
+  display: inline-block;
+  position: absolute;
+  bottom: 0px;
+  right: 600px; }
 
-	font-size: 15px;
-	font-family: 'Baloo Bhaina', cursive;
-	color: orange;
-	display: inline-block;
-	position: absolute;
-	bottom: 0px;
-	right: 600px;
-}
+/*# sourceMappingURL=style.css.map */
