@@ -13,6 +13,32 @@ display:block;
 
 html, body {background-image: url("../../IMGS/fondo.png"); background-color: #f0ff26; font-family: 'Baloo Bhaina', cursive; font-size: 16px; color: #f0ff26;}
 
+
+#back-button {
+
+	height: 50px;
+	width: 75px;
+	background-color: #000;
+	position: fixed;
+	right: 75px;
+	bottom: 50px;
+	border-radius: 25px;
+
+}
+
+#back-button a {
+
+	color: orange;
+	font-size: 20px;
+	position: absolute;
+	top: 5px;
+	right: 15px;
+	text-decoration: none;
+	font-family: 'Baloo Bhaina', cursive;
+}
+
+
+
 .clear {clear: both;}
 
 p {
