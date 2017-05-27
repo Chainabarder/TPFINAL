@@ -41,6 +41,54 @@ p {
 	font-weight: 700;
 	font-family: 'Baloo Bhaina', cursive;
 	margin-bottom: -6px;
+display: inline;
+position: relative;
+
+
+}
+
+
+
+#name h1:before {
+
+	content: "";
+ 	display: inline-block;
+ 	width: 0;
+ 	height: 100%;
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	transition: 0.2s linear all;
+ 	z-index: -1;
+}
+
+#name h1:after {
+
+	content: "FELIX SHAW";
+	font-family: 'Baloo Bhaina', cursive;
+ 	position: absolute;
+ 	top: 0px;
+ 	left: 0px;
+ 	color: orange;
+ 	overflow: hidden;
+ 	width: 0;
+ 	height: 0;
+ 	transition: 0.2s linear all;
+
+}
+
+#name h1:hover:before {
+
+ 	width: 100%;
+ 	height: 100%;
+ }
+
+#name h1:hover:after {
+
+ 	width: 100%;
+ 	height: 100%;
+ }
+
 }
 
 #name h2 {
@@ -131,7 +179,12 @@ section:last-child {
 	font-family: 'Baloo Bhaina', cursive;
 	font-style: italic;
 	font-size: 1.5em;
-	color: #f0ff26;
+	color: orange;
+
+
+}
+
+
 }
 
 .sectionContent h2 {
