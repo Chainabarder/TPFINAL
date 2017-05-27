@@ -213,6 +213,12 @@ section:last-child {
 
 }
 
+.sectionContent article h2 {
+
+	color: orange;
+}
+
+
 .sectionContent h2 {
 	font-family: 'Baloo Bhaina', cursive;
 	font-size: 1.5em;
