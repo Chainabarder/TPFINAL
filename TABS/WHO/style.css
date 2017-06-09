@@ -358,3 +358,106 @@ bottom: 0px;
 	right: 610px;
 }
 
+
+/* MOBILE */
+@media (min-width: 320px) and (max-width: 769px) {
+
+.Navbar {
+    width: 90%; }
+
+.NavBar ul li {
+    list-style: none;
+    display: inline-block;
+    width: 200px;
+    padding: 0px;
+    background-color: transparent;
+    color: orange;
+    font-family: 'Baloo Bhaina', cursive;
+    font-size: 15px; }
+
+  .NAME {
+    position: absolute;
+    top: 30px;
+    left: 15px; }
+
+  .HOME {
+    font-size: 12px;
+    position: absolute;
+    top: 35px;
+    right: 270px; }
+
+  .JOB {
+    font-size: 12px;
+    position: absolute;
+    top: 35px;
+    right: 100px; }
+
+  .CONTACT {
+    font-size: 12px;
+    position: absolute;
+    top: 35px;
+    right: 25px; }
+
+  .WHO {
+    position: absolute;
+    top: 35px;
+    right: 195px;
+    color: #f0ff26;
+    font-size: 12px; }
+
+
+}
+
+
+
+/* TABLET */
+
+@media (min-width: 770px) and (max-width: 1024px) {
+
+.Navbar {
+    width: 90%; }
+
+.NavBar ul li {
+    list-style: none;
+    display: inline-block;
+    width: 200px;
+    padding: 0px;
+    background-color: transparent;
+    color: orange;
+    font-family: 'Baloo Bhaina', cursive;
+    font-size: 20px; }
+
+  .NAME {
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    font-size: 22px; }
+
+  .HOME {
+    font-size: 18px;
+    position: absolute;
+    top: 30px;
+    right: 460px; }
+
+  .JOB {
+    font-size: 18px;
+    position: absolute;
+    top: 30px;
+    right: 155px; }
+
+  .CONTACT {
+    font-size: 18px;
+    position: absolute;
+    top: 30px;
+    right: 25px; }
+
+  .WHO {
+    position: absolute;
+    top: 30px;
+    right: 320px;
+    color: #f0ff26;
+    font-size: 18px; }
+
+	}
+
+

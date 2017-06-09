@@ -253,7 +253,7 @@ h1 {
   right: 600px; }
 
 /* MOBILE */
-@media (min-width: 320px) and (max-width: 769px) {
+@media (min-width: 320px) and (max-width: 769px) {  
   .NavBar {
     display: flex; }
 
