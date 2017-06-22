@@ -185,6 +185,7 @@
   height: 100%; }
 
 /*ACA TERMINA LA ANIMACION DE LOS LI DEL NAV */
+
 #SEC1 {
   background-image: url("IMGS/fondo.png");
   background-color: #f0ff26;
@@ -253,7 +254,9 @@ h1 {
   right: 600px; }
 
 /* MOBILE */
+
 @media (min-width: 320px) and (max-width: 769px) {  
+
   .NavBar {
     display: flex; }
 
